@@ -8,8 +8,8 @@ enum Settings {
     
     @UserDefaultCodable("Settings.hotComment", defaultValue: true)
     static var hotComment: Bool
-//    https://service-9ha5w8dk-1259615918.gz.tencentapigw.com.cn/release/
-    @UserDefaultCodable("Settings.service", defaultValue: "https://service-9ha5w8dk-1259615918.gz.tencentapigw.com.cn/release")
+//    https://241217.top/netease-api/ (basic auth, 凭据在 App 设置页填: https://vibefy:密码@241217.top/netease-api)
+    @UserDefaultCodable("Settings.service", defaultValue: "https://241217.top/netease-api")
     static var service: String
     
     @UserDefaultCodable("Settings.fluidBg", defaultValue: true)
